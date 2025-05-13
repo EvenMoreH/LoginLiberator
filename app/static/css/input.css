@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Body Style */
+.body {
+  @apply bg-[rgba(44,44,44,1)] text-gray-100 max-w-3xl container mx-auto
+}
+
+/* EXAMPLE of reusable button style */
+.btn {
+  @apply w-fit h-auto max-h-12 bg-emerald-600 text-gray-100 font-semibold py-1 px-2 m-1 rounded hover:bg-emerald-800;
+}
+
+.input {
+  @apply rounded bg-slate-200 pl-2 text-neutral-800 font-semibold
+}
